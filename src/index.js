@@ -5,23 +5,28 @@ import Root from './Routes/Root/Root';
 import Services from './Routes/Services/Services';
 import About from './Routes/About/About';
 import Contact from './Routes/Contact/Contact';
+import ErrorPage from './Components/ErrorPage/ErrorPage';
 
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <Root/>
+    element: <Root/>,
+    errorElement: <ErrorPage/>
   },
   {
     path: '/services',
-    element: <Services/>
+    element: <Services/>,
+    errorElement: <ErrorPage/>
   },
   {
     path: '/aboutus',
-    element: <About/>
+    element: <About/>,
+    errorElement: <ErrorPage/>
   },
   {
     path: '/contact',
-    element: <Contact/>
+    element: <Contact/>,
+    errorElement: <ErrorPage/>
   }
 ])
 

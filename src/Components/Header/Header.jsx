@@ -5,7 +5,6 @@ import { Link } from "react-router-dom";
 
 export default function Header() {
     return (
-        <>
             <H.Content>
                 <H.imgContent>
                     <H.Img src={logo} alt="" />
@@ -13,13 +12,12 @@ export default function Header() {
 
                 <H.nav>
                     <H.ul>
-                        <Link to={'/'}><H.li>Home</H.li></Link>
-                        <Link to={'/services'}><H.li>Services</H.li></Link>
-                        <Link to={'/aboutus'}><H.li>About us</H.li></Link>
-                        <Link to={'/contact'}><H.li>Contact us</H.li></Link>
+                        <Link to={'/'} style={{textDecoration: 'none'}}><H.li>Home</H.li></Link>
+                        <Link to={'/services'} style={{textDecoration: 'none'}}><H.li>Services</H.li></Link>
+                        <Link to={'/aboutus'} style={{textDecoration: 'none'}}><H.li>About us</H.li></Link>
+                        <Link to={'/contact'} style={{textDecoration: 'none'}}><H.li>Contact us</H.li></Link>
                     </H.ul>
                 </H.nav>
             </H.Content>
-        </>
     )
 }

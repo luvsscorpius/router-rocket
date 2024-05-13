@@ -1,6 +1,7 @@
 import React from "react";
 import * as H from './Styles'
 import logo from '../../img/logo.png'
+import { Link } from "react-router-dom";
 
 export default function Header() {
     return (
@@ -12,10 +13,10 @@ export default function Header() {
 
                 <H.nav>
                     <H.ul>
-                        <H.li>Home</H.li>
-                        <H.li>Services</H.li>
-                        <H.li>About us</H.li>
-                        <H.li>Contact us</H.li>
+                        <Link to={'/'}><H.li>Home</H.li></Link>
+                        <Link to={'/services'}><H.li>Services</H.li></Link>
+                        <Link to={'/aboutus'}><H.li>About us</H.li></Link>
+                        <Link to={'/contact'}><H.li>Contact us</H.li></Link>
                     </H.ul>
                 </H.nav>
             </H.Content>

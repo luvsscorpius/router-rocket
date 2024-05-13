@@ -8,6 +8,7 @@ export default function Header() {
             <H.Content>
                 <H.imgContent>
                     <H.Img src={logo} alt="" />
+                    <h1>Router Rocket</h1>
                 </H.imgContent>
 
                 <H.nav>
@@ -18,6 +19,8 @@ export default function Header() {
                         <Link to={'/contact'} style={{textDecoration: 'none'}}><H.li>Contact us</H.li></Link>
                     </H.ul>
                 </H.nav>
+
+                <H.headerRight>Sign in</H.headerRight>
             </H.Content>
     )
 }

@@ -1,3 +1,11 @@
+# [1.2.0](https://github.com/luvsscorpius/router-rocket/compare/v1.1.0...v1.2.0) (2024-05-13)
+
+
+### Features
+
+* **header:** styling header ([6cc1bd6](https://github.com/luvsscorpius/router-rocket/commit/6cc1bd6c3a4908eb18cc2f5354d45479a6f00e66))
+* **header:** styling header ([4829de1](https://github.com/luvsscorpius/router-rocket/commit/4829de13a5bb19fa14143301b46990a333e493a2))
+
 # [1.1.0](https://github.com/luvsscorpius/router-rocket/compare/v1.0.0...v1.1.0) (2024-05-13)
 
 
